@@ -17,7 +17,7 @@ class Triangle
     elsif side1 == side2 || side1 == side3 || side2 == side3
       type = :isosceles
       #type
-    elsif side1 == 0 
+    elsif side1 == 0
       binding.pry
       puts "error"
         #raise TriangleError
