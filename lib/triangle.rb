@@ -15,13 +15,10 @@ class Triangle
     elsif side1 == side2 || side1 == side3 || side2 == side3
       type = :isosceles
       #type
-    elsif
-      type = :scalene
-    else
-      if side1 == 0 || side2 == 0 || side3 == 0
+    elsif side1 == 0 || side2 == 0 || side3 == 0
         raise IllegalError
-
-    elsif
+    else
+      type = :scalene
     end
   end
 
