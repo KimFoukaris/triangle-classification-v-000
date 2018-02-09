@@ -1,3 +1,5 @@
+require 'pry'
+
 class Triangle
   attr_accessor :side1, :side2, :side3
 
@@ -16,6 +18,7 @@ class Triangle
       type = :isosceles
       #type
     elsif side1 == 0 || side2 == 0 || side3 == 0
+      binding.pry
       puts "error"
         #raise TriangleError
     else
