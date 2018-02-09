@@ -14,6 +14,9 @@ class Triangle
     elsif side1 == side2 || side1 == side3 || side2 == side3
       type = :isosceles
       #type
+    else 
+      type = :scalene
+      
     end
   end
 
