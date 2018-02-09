@@ -18,7 +18,7 @@ class Triangle
     elsif
       type = :scalene
     else
-      if side1 == 0 || side2 == 0 || side 3 == 0
+      if side1 == 0 || side2 == 0 || side3 == 0
         raise IllegalError
 
     elsif
