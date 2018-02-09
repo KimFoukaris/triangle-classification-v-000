@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind
-    if 
+    if
       side1 == side2 && side1 == side3
       type = :equilateral
       #type
@@ -20,7 +20,7 @@ class Triangle
     else
       if side1 == 0 || side2 == 0 || side 3 == 0
         raise IllegalError
-      
+
     elsif
     end
   end
