@@ -11,8 +11,7 @@ class Triangle
     if side1 == side2 && side1 == side3
       type = :equilateral
       #type
-    end
-    if side1 == side2 || side1 == side3 || side2 == side3
+    elsif side1 == side2 || side1 == side3 || side2 == side3
       type = :isosceles
       #type
     end
